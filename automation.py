@@ -1,1 +1,5 @@
-# começando o projeto
+import pandas
+
+dados = pandas.read_excel("vendas.xlsx")
+
+print(dados)
